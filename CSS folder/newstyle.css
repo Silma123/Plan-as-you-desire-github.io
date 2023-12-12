@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-image:url(cover.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+
+ }
+nav{
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(8, 9, 12);
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(224, 206, 238);
+    padding: 20px;
+    text-decoration: none;
+
+
+}
+li a:hover{
+    background-color: rgb(83,11,56);
+}
+.container{
+    height: 1000px;
+}
+.packages {
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:min(1600px,100%);
+}
+.pricing-card{
+    flex:1;
+    max-width: 360px;
+    background-color: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+
+}
+.pricing-card-hedaer{
+    background-color: darkcyan;
+    display: inline-block;
+    color: aliceblue;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+.pricing-card:hover .pricing-card-hedaer{
+    box-shadow: 0 0 0 26 em #0fbcf9;
+}
+.price{
+    font-size: 70 px;
+    color: #0fbcf9;
+    margin: 40px 0;
+    transition: .2s linear;
+}
+.price span{
+    font-size: 22px;
+    font-weight: 700;
+}
+.pricing-card:hover, .pricing-card:hover .price{
+    color: rgb(56, 58, 168);
+}
+li{
+    list-style-type: none;
+}
+li strong{
+    display: grid;
+    color: rgb(132, 79, 172);
+    padding: 20px;
+    text-decoration: none;
+
+
+}
+.order-btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border: 2px solid #0fbcf9;
+    color: #0fbcf9;
+    padding: 19px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+.order-btn:hover{
+    background-color: #0d0f8b;
+    color: rgb(92, 106, 235);
+}
+footer{
+    background-color: rgb(127, 99, 231);
+    padding :5px;
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.social_icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0;
+    border-radius: 50%;
+}
